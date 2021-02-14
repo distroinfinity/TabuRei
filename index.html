@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+
+    <title>TabuRei</title>
+  </head>
+
+  <body>
+    <h1>TabuRei</h1>
+
+    <div id="group-list">
+
+    </div>
+
+    <button id="clear-storage-btn">Clear Storage (Warning: This will clear all tabs)</button>
+
+    <!-- This polyfill allows the Promise-based WebExtension API to run on Chrome and derivatives.   -->
+    <script src="polyfill/browser-polyfill.min.js"></script>
+
+    <script src="js/tab-manager.js"></script>
+  </body>
+</html>
